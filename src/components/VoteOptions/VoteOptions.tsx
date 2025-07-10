@@ -1,5 +1,5 @@
 import type { VoteType } from "../../types/votes";
-import css from "../CafeInfo/CafeInfo.module.css" 
+import css from '../VoteOptions/VoteOptions.module.css'
 interface VoteOptionsProps{
     onVote: (type: VoteType) => void;
     onReset: () => void;

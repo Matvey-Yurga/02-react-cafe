@@ -35,7 +35,7 @@ const isReset = totalVotes !== 0
       <CafeInfo />
       <VoteOptions onVote={handleVote} onReset={resetVotes} canReset={isReset} />
       {totalVotes > 0 ? (
-      <VoteStats votes={votes} totalVotes={totalVotes} positiveRat={positiveRate} />) : (<Notification/>)}
+      <VoteStats votes={votes} totalVotes={totalVotes} positiveRate={positiveRate} />) : (<Notification/>)}
    </div>
    </>
    )
